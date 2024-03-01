@@ -11,14 +11,35 @@
 <body>
     <header>
         <div class="container banner-section">
-            <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis
-                sapien urna eu phasellus.</p>
+            <h1 class="banner-title">Explore Your Travel</h1>
+            <p class="p-white p-width mt-24 mb-64">Traveling can serve as a means to appreciate the diversity of creation and the beauty of Allah's handiwork across different landscapes and cultures. It offers opportunities for reflection, gratitude, and spiritual growth as individuals witness the majesty of the world and recognize the interconnectedness of all living beings under the guidance of Allah.</p>
             <form action="">
-                <input type="text" name="" id="" placeholder="Where go">
-                <input type="text" name="" id="" placeholder="When">
-                <input type="text" name="" id="" placeholder="Select Types">
-                <input type="button" value="Find Now">
+                <input class="header-input-width-height mr-24" type="text" name="" id="" placeholder="Where go" list="palace">
+                <datalist id="palace">
+                    <option>Sundarbans</option>
+                    <option>Bandarbans</option>
+                    <option>Cox'sBazar</option>
+                    <option>Rangamati</option>
+                </datalist>
+                <input class="header-input-width-height mr-24" type="text" name="" id="" placeholder="When" list="day">
+                <datalist id="day">
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                    <option>Sunday</option>
+                    <option> Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                </datalist>
+                <input class="header-input-width-height mr-24" type="text" name="" id="" placeholder="Select Types" list="types">
+                <datalist id="types">
+                    <option>1 day</option>
+                    <option>3 days</option>
+                    <option>5 days</option>
+                    <option>7 days</option>
+                    <option>15 days</option>
+                </datalist>
+                <input class="header-input-width-height btn-primary" type="button" value="Find Now">
             </form>
         </div>
     </header>
