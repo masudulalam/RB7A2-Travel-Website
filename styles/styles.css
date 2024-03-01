@@ -19,6 +19,9 @@ body {
 .btn-primary {
     border-radius: 8px;
     background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
 }
 
 .mt-24 {
@@ -46,13 +49,11 @@ body {
     height: 3.25rem;
 }
 
-.banner-section input:text {
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-}
-
 .banner-section input {
     padding-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
 }
 
 .banner-title {
@@ -79,4 +80,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header-section-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
 }
