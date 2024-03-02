@@ -41,6 +41,11 @@ body {
     align-items: center;
 }
 
+hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+
 .mt-16 {
     margin-top: 1rem;
 }
@@ -67,6 +72,10 @@ body {
 
 .mb-32 {
     margin-bottom: 2rem;
+}
+
+.mt-48 {
+    margin-top: 3rem;
 }
 
 .mb-48 {
@@ -97,6 +106,14 @@ body {
 }
 .pad-b-16 {
     padding-bottom: 1rem;;
+}
+
+.pad-t-100 {
+    padding-top: 6.25rem;
+}
+
+.pad-b-100 {
+    padding-bottom: 6.25rem;
 }
 
 .font-16-white {
@@ -230,12 +247,22 @@ body {
     background: rgba(19, 19, 24, 0.05);
 }
 
-hr {
-    border: 1px solid rgba(19, 19, 24, 0.1);
-}
-
 .subscribe-section input:button {
     border-radius: 8px;
 
 background: rgb(255, 84, 0);
+}
+/* footer section styles */
+.footer {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
