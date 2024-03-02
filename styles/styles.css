@@ -13,6 +13,7 @@ body {
 .container {
     width: 100%;
     max-width: 73.125rem;
+    /* max-width: 1170px; */
     margin: 0 auto;
 }
 
@@ -44,22 +45,12 @@ body {
     margin-bottom: 4rem;
 }
 
-.header-input-width-height {
-    width: 11rem;
-    height: 3.25rem;
+.mt-100 {
+    margin-top: 3.25rem;
 }
 
-.banner-section input {
-    padding-left: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 8px;
-}
-
-.banner-title {
-    font-size: 4rem;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
+.mb-100 {
+    margin-bottom: 3.25rem;
 }
 
 .p-white {
@@ -76,14 +67,40 @@ body {
 .banner-section {
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     height: 31.25rem;
+    /* height: 500px; */
+    /* background-size: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.header-section-form {
+.banner-title {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.banner-section-form {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     padding: 1rem;
+}
+
+.banner-input-width-height {
+    width: 11rem;
+    height: 3.25rem;
+}
+
+.banner-section input {
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+/* popular tours styles */
+.popular-tours {
+    display: flex;
+    gap: 3.25rem;
 }

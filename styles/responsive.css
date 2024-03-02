@@ -1,0 +1,19 @@
+/* responsive for small devices */
+@media screen and (max-width: 600px) {
+    /* .container {
+        width: 100%;
+        max-width: 335px;
+        max-width: 1170px;
+        margin: 0 auto;
+    } */
+    .banner-section {
+        /* width: 335px; */
+        height: 483px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+}
