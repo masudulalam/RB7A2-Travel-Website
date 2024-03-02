@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.center {
+    text-align: center;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: rgb(255, 84, 0);
@@ -55,6 +59,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.mb-48 {
+    margin-bottom: 3rem;
+}
+
 .mt-64 {
     margin-top: 4rem;
 }
@@ -79,6 +87,11 @@ body {
 
 .p-width {
     width: 43rem;
+}
+
+.p-center {
+    display: flex;
+    justify-content: center;
 }
 
 /* banner styles */
@@ -122,3 +135,11 @@ body {
     display: flex;
     gap: 3.25rem;
 }
+
+/* choose destination section styles */
+.destination-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
