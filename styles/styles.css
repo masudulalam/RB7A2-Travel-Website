@@ -25,8 +25,17 @@ body {
     border-radius: 8px;
     background: rgb(255, 84, 0);
     color: rgb(255, 255, 255);
-    font-weight: 700;
-    text-align: center;
+    font-weight: 800;
+    border: none;
+}
+
+.btn-small {
+    width: 10.875rem;
+    height: 3.25rem;
+}
+.btn-big {
+    width: 25.75rem;
+    height: 3.25rem;
 }
 
 .section-title {
@@ -238,7 +247,7 @@ hr {
     padding: 2.5rem;
 }
 
-.subscribe-section input {
+.input-style {
     display: block;
     width: 24.5rem;
     height: 3.25rem;
@@ -247,11 +256,6 @@ hr {
     background: rgba(19, 19, 24, 0.05);
 }
 
-.subscribe-section input:button {
-    border-radius: 8px;
-
-background: rgb(255, 84, 0);
-}
 /* footer section styles */
 .footer {
     width: 100%;
