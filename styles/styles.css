@@ -33,6 +33,7 @@ body {
     width: 10.875rem;
     height: 3.25rem;
 }
+
 .btn-big {
     width: 25.75rem;
     height: 3.25rem;
@@ -110,11 +111,15 @@ hr {
 .pad-l-20 {
     padding-left: 1.25rem;
 }
+
 .pad-t-16 {
-    padding-top: 1rem;;
+    padding-top: 1rem;
+    ;
 }
+
 .pad-b-16 {
-    padding-bottom: 1rem;;
+    padding-bottom: 1rem;
+    ;
 }
 
 .pad-t-100 {
@@ -140,6 +145,12 @@ hr {
 .font-24 {
     color: rgb(19, 19, 24);
     font-size: 24px;
+    font-weight: 800;
+}
+
+.f-32 {
+    color: rgb(19, 19, 24);
+    font-size: 32px;
     font-weight: 800;
 }
 
@@ -269,4 +280,8 @@ hr {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+
+.social-media-icon-container i {
+    margin-right: 1.5rem;
 }
