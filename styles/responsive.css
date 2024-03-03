@@ -16,6 +16,17 @@
     .banner-title {
         font-size: 2rem;
     }
+    .why-choose-us-section h3 {
+        font-size: 1.25rem;
+    }
+    .why-choose-us-card-container {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .why-choose-us-card-container h5  {
+        font-size: 1.25rem;
+    }
+    
     .newsletter-section {
         flex-direction: column;
         margin: 10px;

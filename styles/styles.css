@@ -225,14 +225,12 @@ hr {
 /* Why Choose Us section styles */
 .why-choose-us-card-container {
     display: flex;
-    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
 .why-choose-us-card-1 {
-    width: 573px;
-    height: 284px;
-    /* box-sizing: border-box; */
+    /* width: 573px;
+    height: 284px; */
     border: 1px solid rgba(251, 181, 99, 0.2);
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
@@ -240,9 +238,6 @@ hr {
 }
 
 .why-choose-us-card-2 {
-    width: 573px;
-    height: 284px;
-    /* box-sizing: border-box; */
     border: 1px solid rgba(41, 206, 246, 0.2);
     border-radius: 16px;
     background: rgba(41, 206, 246, 0.05);
@@ -250,9 +245,6 @@ hr {
 }
 
 .why-choose-us-card-3 {
-    width: 573px;
-    height: 284px;
-    /* box-sizing: border-box; */
     border: 1px solid rgba(233, 68, 68, 0.2);
     border-radius: 16px;
     background: rgba(233, 68, 68, 0.05);
