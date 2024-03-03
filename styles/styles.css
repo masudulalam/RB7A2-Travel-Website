@@ -147,9 +147,19 @@ hr {
     font-size: 24px;
     font-weight: 800;
 }
+.font-24 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+}
 
 .f-32 {
     color: rgb(19, 19, 24);
+    font-size: 32px;
+    font-weight: 800;
+}
+.f-32-w {
+    color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 800;
 }
@@ -265,6 +275,23 @@ hr {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+}
+
+.save-stiker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    left: 1220px;
+    /* right: -960px; */
+    top: 3400px;
+    /* bottom: -6224.84px; */
+    transform: rotate(-19.63deg);
 }
 
 /* footer section styles */
