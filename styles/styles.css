@@ -218,8 +218,11 @@ hr {
     gap: 3.25rem;
 }
 
-/* choose destination section styles */
 
+/* choose destination section styles */
+.destination-image-container img {
+    width: 100%;
+}
 
 
 /* Why Choose Us section styles */
