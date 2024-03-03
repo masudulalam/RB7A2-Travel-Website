@@ -170,6 +170,9 @@ hr {
 .p-width {
     width: 43rem;
 }
+.p-width-100 {
+    width: 100%;
+}
 
 .p-center {
     display: flex;
@@ -180,8 +183,6 @@ hr {
 .banner-section {
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     height: 31.25rem;
-    /* height: 500px; */
-    /* background-size: auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;

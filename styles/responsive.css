@@ -7,14 +7,17 @@
         margin: 0 auto;
     } */
     .banner-section {
-        /* width: 335px; */
-        height: 483px;
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-size: contain auto;
+        /* background-repeat: no-repeat; */
+        margin: 10px;
     }
-
     .banner-title {
         font-size: 2rem;
+    }
+    .banner-section-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
     .popular-tours {
         flex-direction: column;
