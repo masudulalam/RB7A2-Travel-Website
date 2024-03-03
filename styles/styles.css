@@ -10,6 +10,9 @@ body {
 }
 
 /* shared styles */
+.none {
+    display: none;
+}
 .container {
     width: 100%;
     max-width: 73.125rem;
@@ -147,7 +150,7 @@ hr {
     font-size: 24px;
     font-weight: 800;
 }
-.font-24 {
+.font-24-w {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 400;
@@ -222,6 +225,7 @@ hr {
 /* Why Choose Us section styles */
 .why-choose-us-card-container {
     display: flex;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -254,7 +258,6 @@ hr {
     background: rgba(233, 68, 68, 0.05);
     padding: 2rem;
 }
-
 /* newsletter section styles*/
 .newsletter-section {
     display: flex;
@@ -288,9 +291,7 @@ hr {
     width: 324px;
     height: 120px;
     left: 1220px;
-    /* right: -960px; */
     top: 3400px;
-    /* bottom: -6224.84px; */
     transform: rotate(-19.63deg);
 }
 
